@@ -1,2 +1,3 @@
-bin/*
-obj/*
+# Build results
+bin/
+obj/

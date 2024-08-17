@@ -1,4 +1,4 @@
-﻿namespace fsharp_todo.Controllers
+﻿namespace FsharpTodoApi.Controllers
 
 open System
 open System.Collections.Generic
@@ -6,7 +6,7 @@ open System.Linq
 open System.Threading.Tasks
 open Microsoft.AspNetCore.Mvc
 open Microsoft.Extensions.Logging
-open fsharp_todo
+open FsharpTodoApi
 
 [<ApiController>]
 [<Route("[controller]")>]

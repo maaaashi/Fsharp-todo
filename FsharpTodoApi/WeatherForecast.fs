@@ -1,4 +1,4 @@
-namespace fsharp_todo
+namespace FsharpTodoApi
 
 open System
 
