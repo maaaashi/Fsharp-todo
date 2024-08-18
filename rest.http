@@ -1,2 +1,5 @@
 ### Ping
 http://localhost:5263/v1/systems/ping
+
+### Blogs
+http://localhost:5263/v1/blogs
