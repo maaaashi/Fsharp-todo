@@ -23,7 +23,7 @@ let main args =
 
     let blogsGroup = app.MapGroup("/v1/blogs")
 
-    blogsGroup.MapGet("", Func<Task<IResult>>(fun _ -> GetBlogsHandler.handler))
+    blogsGroup.MapGet("", Func<Task<GetBlogsHandlerResult>>(fun _ -> GetBlogsHandler.handler))
     |> ignore
 
     app.Run()
